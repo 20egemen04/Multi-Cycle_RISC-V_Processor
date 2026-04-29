@@ -1,0 +1,270 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'C:/altera/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying C:/altera/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:19 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module riscv_multi_cycle
+# 
+# Top level modules:
+# 	riscv_multi_cycle
+# End time: 00:31:20 on Apr 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:20 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 00:31:20 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:20 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 00:31:20 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:20 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module maindec
+# 
+# Top level modules:
+# 	maindec
+# End time: 00:31:20 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:20 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	instrdec
+# End time: 00:31:20 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:20 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:21 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:21 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:21 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:21 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:21 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 00:31:21 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:22 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 00:31:22 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:22 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 00:31:22 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:22 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 00:31:22 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:22 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 00:31:22 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor {C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:31:22 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor" C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:31:22 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 00:31:23 on Apr 29,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "maindec(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.riscv_multi_cycle(fast)
+# Loading work.controller(fast)
+# Loading work.maindec(fast)
+# Loading work.aludec(fast)
+# Loading work.instrdec(fast)
+# Loading work.datapath(fast)
+# Loading work.flopenr(fast)
+# Loading work.mux2(fast)
+# Loading work.flopr(fast)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.mux3(fast)
+# Loading work.alu(fast)
+# Loading work.mem(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv(30)
+#    Time: 725 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv line 30
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.riscv_multi_cycle(fast)
+# Loading work.controller(fast)
+# Loading work.maindec(fast)
+# Loading work.aludec(fast)
+# Loading work.instrdec(fast)
+# Loading work.datapath(fast)
+# Loading work.flopenr(fast)
+# Loading work.mux2(fast)
+# Loading work.flopr(fast)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.mux3(fast)
+# Loading work.alu(fast)
+# Loading work.mem(fast)
+run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv(30)
+#    Time: 725 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv line 30
+# End time: 02:26:43 on Apr 29,2026, Elapsed time: 1:55:20
+# Errors: 0, Warnings: 1

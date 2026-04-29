@@ -1,0 +1,445 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1777411883
+V4iNocnZD88=:2k5<TmM@33
+04 9 4 work testbench fast 0
+=1-b025aa47843a-69f1272b-156-398
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U23 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+valu
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1777411881
+!i10b 1
+!s100 O2M4Z^4G@`4^NY74oePF02
+IN;4Xkafk@6Yg4ZbV1UZC10
+S1
+R1
+w1777410244
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv
+!i122 8
+L0 7 42
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1777411881.000000
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv|
+!i113 0
+Z7 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -sv -work work +incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+valudec
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv
+R2
+R3
+!i10b 1
+!s100 E@[I0d?98F6gEbo@?bZ9d2
+Ic<J]]C3BOkdII>d2mEzXC3
+S1
+R1
+w1777407023
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv
+!i122 7
+L0 8 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/aludec.sv|
+!i113 0
+R7
+R8
+R9
+vcontroller
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv
+R2
+R3
+!i10b 1
+!s100 `oPd:ZzS0UiNo:JE<C3^90
+I8D^^aafZ<GS3OWHa=fYfh3
+S1
+R1
+w1777127995
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv
+!i122 6
+L0 8 53
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/controller.sv|
+!i113 0
+R7
+R8
+R9
+vdatapath
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv
+R2
+R3
+!i10b 1
+!s100 B@7@N:QP;0SeHF7Z@9h1>1
+IDC27i617=[iKYBk4G_e2C2
+S1
+R1
+w1777409160
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv
+!i122 10
+L0 8 126
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/datapath.sv|
+!i113 0
+R7
+R8
+R9
+vextend
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv
+R2
+R3
+!i10b 1
+!s100 lT9noW5QZHFbh35E_I4PZ0
+Iifg4Q=e`ACTcOYeIjdIkV0
+S1
+R1
+w1777405467
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv
+!i122 5
+L0 7 18
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1777411880.000000
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv|
+!i113 0
+R7
+R8
+R9
+vflopenr
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv
+R2
+Z11 !s110 1777411880
+!i10b 1
+!s100 0L4f:cT<PoXSM^6SNGj9L1
+II<Zgn@cMH3n_`UZWo[M6U1
+S1
+R1
+w1777405329
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv
+!i122 1
+Z12 L0 8 11
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopenr.sv|
+!i113 0
+R7
+R8
+R9
+vflopr
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv
+R2
+Z13 !s110 1777411882
+!i10b 1
+!s100 I7@Ig?F9E]4F@az7dcJVX0
+IT[gf15UXNOAnR@HM<UnMG0
+S1
+R1
+w1777405225
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv
+!i122 11
+R12
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1777411882.000000
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/flopr.sv|
+!i113 0
+R7
+R8
+R9
+vinstrdec
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv
+R2
+R11
+!i10b 1
+!s100 8fgDB3BWagMf=z5IkEoJ71
+Im:Hdz0>dHR8A_jL=fN8L<1
+S1
+R1
+w1777127998
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv
+!i122 4
+L0 8 15
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/instrdec.sv|
+!i113 0
+R7
+R8
+R9
+vmaindec
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv
+R2
+R11
+!i10b 1
+!s100 URz>lNFiF]nJ6DJ9aomm73
+I6Q2mMRVjFHYzWB:dfS1M52
+S1
+R1
+w1777127981
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv
+!i122 3
+L0 7 154
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/maindec.sv|
+!i113 0
+R7
+R8
+R9
+vmem
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv
+R2
+R13
+!i10b 1
+!s100 m6_^cTRaK:Me1l[`7mGjl0
+I>S15^OLYk149VFz_5MEKK2
+S1
+R1
+w1777407423
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv
+!i122 14
+R12
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mem.sv|
+!i113 0
+R7
+R8
+R9
+vmux2
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv
+R2
+R13
+!i10b 1
+!s100 ^eUb7ZKVWz5gDcB<@;W`60
+I7WI6MjoaFoA3>Wa:94ImW1
+S1
+R1
+w1777405666
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv
+!i122 12
+Z15 L0 8 9
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux2.sv|
+!i113 0
+R7
+R8
+R9
+vmux3
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv
+R2
+R13
+!i10b 1
+!s100 <k2QKf9imYL:P@0DPJadV1
+I>YBdLJP5mMLa_nm@:WiK22
+S1
+R1
+w1777405772
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv
+!i122 13
+R15
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/mux3.sv|
+!i113 0
+R7
+R8
+R9
+vregfile
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv
+R2
+R11
+!i10b 1
+!s100 `D1M[l@?<7Hd`;l8H8MPB2
+IHi48;6EQHMz84G3Ml__0K2
+S1
+R1
+w1777405477
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv
+!i122 2
+L0 7 27
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/regfile.sv|
+!i113 0
+R7
+R8
+R9
+vriscv_multi_cycle
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv
+R2
+R11
+!i10b 1
+!s100 cG?M6cQ=W9GAIUc[3=`VC0
+IS<E4;YU9ji<b2DL3@ESoY0
+S1
+R1
+w1777409887
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv
+!i122 0
+L0 8 57
+R4
+R5
+r1
+!s85 0
+31
+!s108 1777411879.000000
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_multi_cycle.sv|
+!i113 0
+R7
+R8
+R9
+vtestbench
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv
+R2
+R13
+!i10b 1
+!s100 L3;b5UQYKASI]3UfU_7V81
+I81WfnULe:e@SaS9N<]Fh61
+S1
+R1
+w1777380060
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv
+!i122 15
+L0 1 37
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/riscv_testbench.sv|
+!i113 0
+R7
+R8
+R9
+vtop
+2C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv
+R2
+R3
+!i10b 1
+!s100 ITcBN3bGXQnee]Z`7VLX81
+Im^36aQRlci7a`lVSBEDN32
+S1
+R1
+w1777409766
+8C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv
+FC:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv
+!i122 9
+L0 7 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor|C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/top.sv|
+!i113 0
+R7
+R8
+R9

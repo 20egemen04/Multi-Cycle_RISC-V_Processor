@@ -1,0 +1,35 @@
+/*
+	Egemen Celik 2220357034
+	ELE432 Preliminary Work 2 : PRE2_Single-Cycle_RISC-V_Processor
+	regfile.sv
+*/
+
+`timescale 1ns / 1ps
+
+module regfile (
+    input  logic         clk,
+    input  logic         WE3,
+    input  logic [19:15] A1,
+    input  logic [24:20] A2,
+    input  logic [ 11:7] A3,
+    input  logic [ 31:0] WD3,
+    output logic [ 31:0] RD1,
+    output logic [ 31:0] RD2
+);
+  // Create an array of 32 words, each 32 bits wide
+  logic [31:0] rf[31:0];
+
+  // Synchronous Write: Only write data on the rising edge of the clock
+  always_ff @(posedge clk) begin
+    // Write data to the register file if WE3 is high and A3 is not zero
+    if (WE3 && (A3 != 5'b0)) begin
+      rf[A3] <= WD3;
+    end
+  end
+
+  // Asynchronous Read: Output updates instantly when Address (A) changes
+  // If address is zero, return zero
+  assign RD1 = (A1 == 5'b0) ? 32'b0 : rf[A1];
+  assign RD2 = (A2 == 5'b0) ? 32'b0 : rf[A2];
+
+endmodule

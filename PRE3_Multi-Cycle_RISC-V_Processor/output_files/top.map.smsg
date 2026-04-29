@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at extend.sv(20): extended using "x" or "z" File: C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/extend.sv Line: 20
+Warning (10273): Verilog HDL warning at alu.sv(40): extended using "x" or "z" File: C:/Projects/quartus/PRE3_Multi-Cycle_RISC-V_Processor/alu.sv Line: 40
